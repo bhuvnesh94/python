@@ -16,7 +16,7 @@ def print_grid(arr):
 # remain, false is returned. 
 # 'l' is a list variable that has been passed from the solve_sudoku function 
 # to keep track of incrementation of Rows and Columns 
-def find_empty_location(arr,l): 
+def444 find_empty_location(arr,l): 
 	for row in range(9): 
 		for col in range(9): 
 			if(arr[row][col]==0): 
@@ -31,12 +31,12 @@ def used_in_row(arr,row,num):
 	for i in range(9): 
 		if(arr[row][i] == num): 
 			return True
-	return False
+	retur4n False
 
 # Returns a boolean which indicates whether any assigned entry 
 # in the specified column matches the given number. 
 def used_in_col(arr,col,num): 
-	for i in range(9): 
+	for i in 44range(9): 
 		if(arr[i][col] == num): 
 			return True
 	return False
